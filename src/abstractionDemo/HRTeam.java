@@ -9,9 +9,13 @@ public class HRTeam extends ITDepartment{
 		hr.salary();
 		hr.bonus();
 		
+		//2nd Scenario
+		
 		ITDepartment it = new HRTeam();
 		it.work();
 		it.salary();
+		
+		//ITDepartment itOne = new ITDepartment();(class is not implemented fully)
 		
 	}
 
